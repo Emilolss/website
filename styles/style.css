@@ -46,6 +46,23 @@
     position: absolute;
 }
 
+.arrow {
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(133deg);
+    transition: border-width 150ms ease-in-out;
+    top: 2%;
+    left: 2%;
+    position: absolute;
+}
+.arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+
 body {
     background: url(/img/luke-chesser-eICUFSeirc0-unsplash.jpg)
 }
