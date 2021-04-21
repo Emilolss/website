@@ -1,5 +1,5 @@
-button {
-    background-color:black;
+.btn {
+    background: transparent;
     border: 2px solid white;
     color: white;
     text-align: center;
@@ -11,9 +11,12 @@ button {
     width: 100px;
 }
 
-button:hover {
+.btn:hover {
     background-color: white;
-    color: black;
+    color: white;
+    background-image: -webkit-linear-gradient(45deg, #2F21AB 0%, #7A34A4 100%);
+    background-image: linear-gradient(45deg, #2F21AB, #7A34A4 100%);
+    
 }
 
 .center{
@@ -25,8 +28,26 @@ button:hover {
     transform: translate(-50%, -50%);
 }
 
+.btn2 {
+    background: url(/img/ic_mode_edit_black_24dp.svg);
+    background-size:30px;
+    border:2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 50%;
+    outline: none;
+    display: block;
+    height: 38px;
+    width: 38px;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+
 body {
-    background-color: black;
+    background: url(/img/luke-chesser-eICUFSeirc0-unsplash.jpg)
 }
 
 .wel {
