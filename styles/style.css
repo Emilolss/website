@@ -28,23 +28,12 @@
     transform: translate(-50%, -50%);
 }
 
-.btn2 {
-    background: url(/img/ic_mode_edit_black_24dp.svg);
-    background-size:30px;
-    border:2px solid white;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    cursor:pointer;
-    border-radius: 50%;
-    outline: none;
-    display: block;
-    height: 38px;
-    width: 38px;
-    bottom: 10px;
-    right: 10px;
+.btn2{
+    top: 95%;
+    left: 97%;
     position: absolute;
 }
+
 
 .arrow {
     height: 25px;
@@ -77,4 +66,9 @@ body {
 
 @keyframes text {
     
+}
+
+.bio{
+    padding: 30px;
+    margin: 80x;
 }
